@@ -1,0 +1,23 @@
+$black: #191919;
+$white: #fff;
+$amount: 20%;
+$blue: #009dff;
+
+$green: #37da63;
+
+$border-blue: #0b5db1;
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+
+    transform: translateY(0);
+  }
+  40% {
+
+    transform: translateY(-30px);
+  }
+  60% {
+
+    transform: translateY(-15px);
+  }
+}

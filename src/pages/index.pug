@@ -1,0 +1,16 @@
+include mixins
+
+- var title = 'Home';
+
+doctype html
+html(lang="en")
+	+head(title)
+
+body#home
+	.wrapper-main
+		include header/header
+		section.section-bgr.section-bgr--first
+			.container
+				h1 Body
+		include footer/footer
+	include popups/popup

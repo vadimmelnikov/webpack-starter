@@ -1,0 +1,6 @@
+require('./bpopup.js')
+// require('./anchors.js')
+// require('./main.js')
+// require('./tabs.js')
+// require('./slicky')
+require('./popups')
